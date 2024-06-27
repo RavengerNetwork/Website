@@ -29,3 +29,69 @@ html {
 #about {
 	background-color: #191D20;
 }
+
+#contact .container {
+	padding: 10px;
+	background-color: #191D20;
+}
+
+.text-slide>div {
+  display: inline-block;
+  text-align: left;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  font-size: 30px;
+}
+
+.text span {
+  display: block;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.text {
+  position: relative;
+  animation: text-animation ease 8s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text-animation {
+  0% {
+    top: 0;
+  }
+
+  15% {
+    top: 0;
+  }
+
+  25% {
+    top: -40px;
+  }
+
+  35% {
+    top: -40px;
+  }
+
+  45% {
+    top: -80px;
+  }
+
+  100% {
+    top: -80px;
+  }
+}
+
+.text span:nth-child(1) {
+  background-color: #00FC04;
+}
+
+.text span:nth-child(2) {
+  background-color: #702EF7;
+}
+
+.text span:nth-child(3) {
+	background-color: #fff;
+	color: #000;
+	padding: 0 0px;
+}
