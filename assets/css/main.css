@@ -76,21 +76,33 @@ html {
   45% {
     top: -80px;
   }
+  
+  55% {
+    top: -80px;
+  }
+  
+  65% {
+    top: -120px;
+  }
 
   100% {
-    top: -80px;
+    top: -120px;
   }
 }
 
 .text span:nth-child(1) {
-  background-color: #00FC04;
+  background-color: #111111;
 }
 
 .text span:nth-child(2) {
-  background-color: #702EF7;
+  background-color: #00FC04;
 }
 
 .text span:nth-child(3) {
+  background-color: #702EF7;
+}
+
+.text span:nth-child(4) {
 	background-color: #fff;
 	color: #000;
 	padding: 0 0px;
